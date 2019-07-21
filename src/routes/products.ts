@@ -1,7 +1,7 @@
 import { Request, Response, Router } from 'express';
 import { v1 as uuid } from 'uuid';
 import { productsArr } from '../data';
-import { myProdGetValidation, myPostValidation } from '../routes/routesValidations'
+import { myProdGetValidation, myPostValidation } from '../middleware/routesValidations'
 
 const prodRouter = Router();
 
