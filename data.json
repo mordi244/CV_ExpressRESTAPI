@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "name": "Sports",
+            "products" : [
+                {
+                    "name" : "Surfing Board",
+                    "itemInStock" : 2
+                },
+                {
+                    "name" : "Nike T-Shirt",
+                    "itemInStock" : 5
+                },
+                {
+                    "name" : "Nike Shoes",
+                    "itemInStock" : 1
+                }
+             ]
+        },
+        {
+            "name": "Laptops",
+            "products" : [
+                {
+                    "name" : "Dell Laptop",
+                    "itemInStock" : 2
+                },
+                {
+                    "name" : "Acer Laptop",
+                    "itemInStock" : 5
+                }
+             ]
+        },
+        {
+            "name": "Office Supplies",
+            "products" : [
+                {
+                    "name" : "Pilot Pen",
+                    "itemInStock" : 21
+                },
+                {
+                    "name" : "Casio Calculator",
+                    "itemInStock" : 11
+                },
+                {
+                    "name" : "Printer Papers",
+                    "itemInStock" : 6
+                }
+                
+             ]
+        }
+    ]
+}
