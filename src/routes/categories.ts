@@ -3,7 +3,7 @@ import { v1 as uuid } from 'uuid';
 import { Category } from '../models/category';
 import { Product } from '../models/product';
 import { fullCategoryArr, loadProductsCatsFile } from '../data';
-import { myGetValidation } from '../middleware/routesValidations';
+import { myGetValidation } from '../validations/routesValidations';
 const categRouter = Router();
 
 loadProductsCatsFile(); //load data
